@@ -121,7 +121,7 @@ def main():
 
     def redraw_surfacedow():
         surface.blit(background, (0, 0))
-        lives_label = main_font.render(f"Прошло кораблей {5 - lives }", 1, (255, 255, 255))
+        lives_label = main_font.render(f"Прошло врагов {5 - lives }", 1, (255, 255, 255))
         player.draw(surface)
 
         surface.blit(lives_label, (10, 10))
